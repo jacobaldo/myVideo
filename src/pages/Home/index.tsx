@@ -15,16 +15,16 @@ const Home = ({navigation}: any) => {
   return (
     <SafeAreaView>
       <View style={styles.body}>
-        {/* <Text style={styles.title}>Categorias</Text> */}
+        <Text style={styles.title}>Categorias</Text>
         {/* Video 1 */}
-        {/* <FlatList
+        <FlatList
           horizontal
           data={categories}
           renderItem={({item}) => (
             <CardItem category={item} onPressCat={onPressCategory} />
           )}
           keyExtractor={(item, index) => 'index' + index}
-        /> */}
+        />
         {/* Video 2 */}
         <Button
           style={styles.btnStyle}
