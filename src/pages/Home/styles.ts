@@ -8,4 +8,6 @@ export const styles = StyleSheet.create({
     marginVertical: 10,
     fontWeight: 'bold',
   },
+  btnStyle: {marginTop: 30},
+  iconBtnStyle: {marginHorizontal: 10},
 });

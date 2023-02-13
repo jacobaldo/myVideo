@@ -7,7 +7,6 @@ import {colors} from '../../constants/colors';
 
 const Category = ({navigation, route}: any) => {
   const {data} = route.params;
-  console.log(data);
   return (
     <SafeAreaView>
       <View style={styles.itemCard}>
